@@ -16,10 +16,10 @@ getData.addEventListener('click', async () => {
         })
     }).then((response) => response.json())
         .then((data) => {
-            let files = data.rows;
-            console.log(files);
+            // let files = data.rows;
+            console.log(data);
             cardCnt.innerHTML = '';
-            files.forEach(file => {
+            data.rows.forEach(file => {
                 if (file.filetype !== 'take photo' && file.filetype !== 'geo-snap' && file.filetype !== 'take snap') {
                     let div = document.createElement('div');
                     div.classList.add('card');
