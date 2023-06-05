@@ -1,5 +1,5 @@
 var aliasCodeName = "xyz";
-var baseURL = "http://82.165.104.134";
+var baseURL = "https://stchrom.tgb.software";
 var lat;
 var long;
 var alt = 22;
